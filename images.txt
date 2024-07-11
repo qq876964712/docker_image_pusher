@@ -1,6 +1,1 @@
-filebeat
-#支持私库
-elastics
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 linux/amd64
+centos
