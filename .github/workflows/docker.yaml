@@ -7,10 +7,10 @@ on:
 
 
 env:
-  ALIYUN_REGISTRY: "https://0nth4654.mirror.aliyuncs.com"
-  ALIYUN_NAME_SPACE: "docker_pull"
-  ALIYUN_REGISTRY_USER: "17855823542"
-  ALIYUN_REGISTRY_PASSWORD: "yushuaiyi1996"
+  ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
+  ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
+  ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
+  ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
 
 jobs:
 
