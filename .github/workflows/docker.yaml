@@ -59,7 +59,7 @@ jobs:
       run: |
 
         echo "image $ALIYUN_REGISTRY_USER"
-        docker login -u 17855823542  -p  yushuaiyi1996 https://b2pltlbs.mirror.aliyuncs.com
+        docker login -u  $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
